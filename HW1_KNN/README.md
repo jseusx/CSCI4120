@@ -36,7 +36,7 @@ foo@bar:~$ python3 'iris_KNN.py'
 ...
 ```
 You will then be shown a linechart similar to this and get to see the accuracies being displayed per k:
-![linechart plotting K values vs Average Accuracy](matplotlib_HW1.png)
+![linechart plotting K values vs Average Accuracy](mpl_HW1.png)
 
 ### Which K works best?
 According to the data shown, k=5 has the best accuracy. I have also noticed that when running the programming, usually k<5 are the highest, specifically k=3.
