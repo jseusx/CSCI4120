@@ -65,6 +65,7 @@ def main():
     
     
     # chart setup
+    plt.figure(figsize=(10, 6))
     plt.style.use('seaborn-whitegrid')
     plt.title('K values vs Average Accuracy')
     plt.xlabel('K values')
