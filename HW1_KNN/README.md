@@ -32,7 +32,6 @@ If you are using an IDE, make sure that the files are in the same directory and 
 If you are using a terminal to run the program, you will need to cd into the directory first where the **.py** file is contained.
 
 For example in a linux terminal it would look like this:
-**Terminal:**
 ```console
 foo@bar:~$ cd Desktop/CSCI_4120-master/KNN/.
 foo@bar:~$ python3 'iris_KNN.py'
