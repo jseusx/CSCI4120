@@ -46,4 +46,4 @@ Overall, if the accuracies are similar across k's it may be due to the way the d
 ```python
 return train_test_split(x, y, test_size=1-split, random_state=42)
 ```
-Additionally, having too many k's causes underfitting meaning it is not good on training data and cannot be used to predict the new data.
+Additionally, having too many k's causes underfitting meaning it is not good on training data and cannot be used to predict the new data. Another reason why the data may be similar may be due to the data being provided as it is relativly simple. Additionally, if the data is balanced, it can lead to similar performance across the k values.
