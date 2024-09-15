@@ -26,7 +26,10 @@ If you are on a linux device, use pip and use this command in the terminal to in
 pip3 install -r requirements.txt
 ```
 ### Run the program:
-Using either terminal or an IDE to run the program. First, make sure that you cd into the directory where the **.py** file is contained.
+First, make sure that the **iris_KNN.py** and **iris.data** is downloaded in the same folder/directory.
+Using either terminal or an IDE run the program: <br>
+If you are using an IDE, make sure that the files are in the same directory and run the **.py** file. <br>
+If you are using a terminal to run the program, you will need to cd into the directory first where the **.py** file is contained.
 
 For example:
 **Terminal:**
@@ -35,7 +38,7 @@ foo@bar:~$ cd Desktop/CSCI_4120-master/KNN/.
 foo@bar:~$ python3 'iris_KNN.py'
 ...
 ```
-You will then be shown a linechart similar to this and get to see the accuracies being displayed per k:
+You will then be shown accuracies per k and a linechart showing the values visually similar to this:
 ![linechart plotting K values vs Average Accuracy](mpl_HW1.png)
 
 ### Which K works best?
