@@ -26,12 +26,12 @@ If you are on a linux device, use pip and use this command in the terminal to in
 pip3 install -r requirements.txt
 ```
 ### Run the program:
-First, make sure that the **iris_KNN.py** and **iris.data** is downloaded in the same folder/directory.
-Using either terminal or an IDE run the program: <br>
+First, make sure that the **iris_KNN.py** and **iris.data** is downloaded in the same folder/directory. <br>
+Use either a terminal or an IDE run the program: <br>
 If you are using an IDE, make sure that the files are in the same directory and run the **.py** file. <br>
 If you are using a terminal to run the program, you will need to cd into the directory first where the **.py** file is contained.
 
-For example:
+For example in a linux terminal it would look like this:
 **Terminal:**
 ```console
 foo@bar:~$ cd Desktop/CSCI_4120-master/KNN/.
