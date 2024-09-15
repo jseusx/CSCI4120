@@ -4,8 +4,7 @@ Jesus Jimenez-Sanchez <br>
 **Email:** Jimenezsanchezj18@students.ecu.edu
 
 ## Quick Start:
-Before running the program, make sure that the "iris.data" file is installed in the same directory.<br>
-Additionally, make sure that all libraries needed are installed from "requirements.txt". It includes these libraries:
+Before running the program, make sure that all libraries needed are installed from "requirements.txt". It includes these libraries:
 ```
 scipy
 numpy
@@ -19,7 +18,7 @@ ipywidgets
 keras
 tensorflow
 ```
-
+The file is in the main repository **CSCI4120/** under this one. <br>
 If you are on a linux device, use pip and use this command in the terminal to install them all:
 
 ```console
