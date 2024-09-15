@@ -6,4 +6,4 @@ If you are on a linux device, you can use pip to install them all:
 ```console
 pip3 install -r requirements.txt
 ```
-Additionally, al folders will have their own seperate README's with instructions on how to run the programs.
+Additionally, all folders will have their own seperate README's with instructions on how to run the programs.
