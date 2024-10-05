@@ -38,6 +38,7 @@ You will then be shown a initial graph from the KElbowVisualizer. It will show t
 
 ### Which K is the best?
 ![KElbowVisualizer](KElbowVisualizer.png)
+<br>
 K = 4 is the best based on the elbow shown in the graph, having an 100% accuracy. <br>
 This is the confusion matrix that should be outputted:
 ![Confusion Matrix showing predicted label x true label](ConfusionMatrix.png)
