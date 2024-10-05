@@ -11,9 +11,6 @@ from yellowbrick.cluster import KElbowVisualizer
 X, y_true = make_blobs(n_samples=300, centers=4,
                        cluster_std=0.60, random_state=0)
 
-#plt.scatter(X[:, 0], X[:, 1], s=50)
-# plt.show()
-
 model = KMeans()
 
 visualizer = KElbowVisualizer(model, k=(1,12))
