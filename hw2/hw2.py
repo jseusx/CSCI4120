@@ -17,24 +17,25 @@ visualizer = KElbowVisualizer(model, k=(1,12))
 visualizer.fit(X)  # Fit the data to the visualizer
 visualizer.show()       
 
-# best k using KElbowVisualizer
+#best k using KElbowVisualizer
 best_k = visualizer.elbow_value_ 
+print(f'Best k: {best_k}')
 
 kmeans = KMeans(n_clusters=best_k, random_state=0)
 y_pred = kmeans.fit_predict(X)
 
-# will match predicted labels to true labels
+#will match predicted labels to true labels
 labels = np.zeros_like(y_pred)
 for i in range(best_k):
     mask = (y_pred == i)
     labels[mask] = np.bincount(y_true[mask]).argmax()
 
 accuracy = accuracy_score(y_true, labels)
-print(f'Accuracy: {accuracy}')
+print(f'Accuracy: {accuracy:.2f}')
+
 
 mat = confusion_matrix(y_true, labels)
 
-# create confusion matrix for best k
 plt.figure(figsize=(best_k, best_k))
 sns.heatmap(mat, square=True, annot=True, fmt='d', cmap='GnBu', cbar=True,
             xticklabels=np.unique(y_true),
