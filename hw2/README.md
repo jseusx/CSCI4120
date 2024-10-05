@@ -1,4 +1,4 @@
-# Homework 1: Group Homework [iris_KNN]
+# Homework 2: HW_ELBOW_KMEANS
 ## Team Members:
 Jesus Jimenez-Sanchez <br> 
 **Email:** Jimenezsanchezj18@students.ecu.edu
