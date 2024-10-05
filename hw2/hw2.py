@@ -17,13 +17,13 @@ visualizer = KElbowVisualizer(model, k=(1,12))
 visualizer.fit(X)  # Fit the data to the visualizer
 visualizer.show()       
 
-#best k using KElbowVisualizer
+# best k using KElbowVisualizer
 best_k = visualizer.elbow_value_ 
 
 kmeans = KMeans(n_clusters=best_k, random_state=0)
 y_pred = kmeans.fit_predict(X)
 
-#will match predicted labels to true labels
+# will match predicted labels to true labels
 labels = np.zeros_like(y_pred)
 for i in range(best_k):
     mask = (y_pred == i)
