@@ -7,6 +7,7 @@ Jesus Jimenez-Sanchez <br>
   -   Can be used to run code without IDE
 - IDE
   - Install requirements from main branch use the README for help.
+- Download the 2 data files under (data)
 ## Cross Validation scores and Alpha values:
 ### Lasso
 Lasso Best Alpha: {'alpha': 0.11513953993264481} <br>
