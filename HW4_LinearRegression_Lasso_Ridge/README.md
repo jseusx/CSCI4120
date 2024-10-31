@@ -8,6 +8,8 @@ Jesus Jimenez-Sanchez <br>
 - IDE
   - Install requirements from main branch use the README for help.
 - Download the 2 data files under (data)
+## About:
+This jupyter notebook shows which model is best when using 10-fold cross validation on bicycle traffic data. This is done by tuning alpha values and finding the best for each model with the help of RandomizedSearchCV.
 ## Cross Validation scores and Alpha values:
 ### Lasso
 Lasso Best Alpha: {'alpha': 0.11513953993264481} <br>
